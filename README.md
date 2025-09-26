@@ -147,7 +147,7 @@ If this project contributes to your research, we would appreciate it if you coul
         year={2025}
 }
 
-@inproceedings{guoaccess2025,
+@article{guoaccess2025,
         author={Guo, Chao and Shi, Youhua},
         booktitle={IEEE Access},
         title={A Novel Security Threat Model for Automated AI Accelerator Generation Platforms},
