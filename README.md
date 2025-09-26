@@ -6,7 +6,8 @@ The stripped HT code and the middleware malicious code are located in the [ai_ac
 - [Quick Start](#quick-start)
 - [Validate using the ILSVRC 2012 dataset](#validate-using-the-ilsvrc-2012-dataset)
 - [To attack other categories](#to-attack-other-categories)
-- [Output example](#Output-example)
+- [Output example](#output-example)
+- [Citation](#citation)
 
 ## Installation
 **Python version 3.10 or higher is required.**
@@ -132,4 +133,24 @@ Category: n04591713 wine bottle, Probability: 5.52320329916256e-07
 Category: n03018349 china cabinet, china closet, Probability: 2.0467432193527202e-07
 
 Compare malicious model and clean model, number of different parameters =  9
+```
+
+## Citation
+
+If this project contributes to your research, we would appreciate it if you could cite our work:
+
+```
+@article{guotnnls2025,
+        author={Guo, Chao and Yanagisawa, Masao and Shi, Youhua},
+        booktitle = {IEEE Transactions on Neural Networks and Learning Systems (TNNLS)},
+        title={DSE-Based Hardware Trojan Attack for Neural Network Accelerators on FPGAs},
+        year={2025}
+}
+
+@inproceedings{guoaccess2025,
+        author={Guo, Chao and Shi, Youhua},
+        booktitle={IEEE Access},
+        title={A Novel Security Threat Model for Automated AI Accelerator Generation Platforms},
+        year={2025}
+}
 ```
